@@ -1,0 +1,54 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+#table {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#board {
+	padding: 0;
+	margin-left: 255px;
+	width: 450px;
+	height: 450px;
+}
+
+.position {
+	padding: 0;
+	margin: 0;
+	width: 149px;
+	min-height: 149px;
+	float: left;
+}
+
+.top {
+	border-bottom: 1px solid gray;
+}
+
+.left {
+	border-right: 1px solid gray;
+	float: left;
+}
+
+.human {
+	background-image: url(/site_media/images/x.png);
+}
+
+.computer {
+	background-image: url(/site_media/images/o.png);
+}
+
+#message {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#error_message {
+	font-size: 24px;
+	font-weight:bold;
+	color: #FF0000;
+}
+
+
