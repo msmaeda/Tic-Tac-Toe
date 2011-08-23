@@ -65,4 +65,10 @@ def botMove(state):
                     return 2
                 else:
                     raise Exception("Somthing is very wrong")
-                    
+    else:
+        # Select first open spot
+        idx     = 0
+        for i in state:
+            if i == 0:
+                return idx
+            idx += 1
